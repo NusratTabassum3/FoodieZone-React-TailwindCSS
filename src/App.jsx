@@ -6,6 +6,7 @@ import CoverBanner from "./components/CoverBanner/CoverBanner";
 import Service from "./components/Services/Services";
 import AppStore from "./components/AppStore/AppStore";
 import Banner from "./components/Banner/Banner";
+import Testimonial from "./components/Testimonial/Testimonial";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
       <Banner />
       {/* <CoverBanner /> */}
       <AppStore />
+      <Testimonial />
       <Footer />
     </div>
   );
